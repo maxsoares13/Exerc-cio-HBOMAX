@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter&family=Montserrat:ital,wght@0,400;1,700&display=swap');
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: inter;
+    
+}
+
+body {
+    overflow: hidden;
+        
+}
+
+.background {
+    background: black;
+    background-image: url("image 9.png");
+    background-size: cover;
+    background-position: auto;
+    position: static;
+    width: 1740px;
+    height: 979px;
+    left: -95px;
+    top: 3px;
+}
+
+header{
+    position: static;
+    display: center;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+h1 {
+    color: bisque;
+    position: static;
+    
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    align-items: center;
+}
+
+h3{
+    color:bisque;
+    padding-bottom: 30px;
+}
+
+input {
+    position: static;
+    width: 566px;
+    height: 53px;
+    left: 462px;
+    top: 553px;
+    
+    background: rgba(127, 127, 127, 0.75);
+    border-radius: 25px;
+}
+
+
+.login label {
+    position: static;
+    width: 379px;
+    height: 74px;
+    left: 473px;
+    top: 345px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+#button1 {
+    box-sizing: border-box;
+
+    position: static;
+    width: 214px;
+    height: 55px;
+    left: 649px;
+    top: 650px;
+
+    background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+#button2 {
+    box-sizing: border-box;
+
+    position: static;
+    width: 404.5px;
+    height: 55px;
+    left: 554px;
+    top: 851px;
+
+    background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
